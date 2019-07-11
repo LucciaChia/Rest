@@ -26,6 +26,7 @@ public class ApiServiceImplTest {
     @Test
     public void getUsers() {
 
+        // produces 4 Users
         List<User> users = apiService.getUsers(3);
 
         assertEquals(4, users.size());
